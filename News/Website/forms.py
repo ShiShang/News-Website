@@ -24,3 +24,34 @@ class Login(forms.Form):
     'required':'Please enter your name!',
     'max_length':' Your name is too long!'
     })
+
+class RegisterForm(forms.Form):
+    Name=forms.CharField(label='Name',max_length=40,error_messages={
+    'required':'Please enter your name!',
+    'max_length':' Your name is too long!'
+    })
+    Password=forms.CharField(label='Password',max_length=40,error_messages={
+    'required':'Please enter your Password!',
+    'max_length':' Your Password is too long!'
+    })
+    Profile=forms.CharField(label='Profile',max_length=40,error_messages={
+    'required':'Please enter your Profile!',
+    'max_length':' Your name is too long!'
+    })
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

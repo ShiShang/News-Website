@@ -116,7 +116,7 @@
 					{% csrf_token %} 
 					{% for object in Comments %}
 					    <div class="comment-field" style="padding-top: 10px;">
-					    {{ object.Name}} says {{ object.Comment}}
+					    {{ object.Name}} says:   {{ object.Comment}}
 						</div>
 					{% endfor %}
 					<h3>Submit Comments</h3>

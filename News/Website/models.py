@@ -66,4 +66,3 @@ class Comments(models.Model):
     Create_Date=models.DateField('Create_Date',auto_now_add=True)
     News=models.ForeignKey('News',verbose_name='News',null=True)
 
-	
